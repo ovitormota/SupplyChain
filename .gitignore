@@ -1,0 +1,61 @@
+# Bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# Flask instance folder
+instance/
+
+# Configuration files
+*.env
+
+# Docker
+docker-compose.override.yml
+*.log
+*.pid
+*.sock
+
+# IDEs
+.vscode/
+.idea/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# PyInstaller
+*.spec
+
+# Test results
+nosetests.xml
+coverage.xml
+*.cover
+*.tox
+*.nox
+*.hypothesis/
+*.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pycharm
+.idea/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
